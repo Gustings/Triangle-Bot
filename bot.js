@@ -7,11 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Owners') {
-    	message.reply('The Owners of this server are @Andresen#3830 and @Bigseth#7672');
+    	message.reply('The Owners of this server are Andresen and Bigseth');
     
 });
     
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

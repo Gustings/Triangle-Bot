@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Owners') {
-    	message.reply('The Owners of this server are Andresen and Bigseth');
+    	message.channel.send('The Owners of this server are Andresen and Bigseth');
     }
 });
     

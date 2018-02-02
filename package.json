@@ -1,7 +1,7 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "AbortedBot",
+  "description": "This is the official Aborted Discord Bot! Created by @gustings#2804 and @Andresen#3830",
+  "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"

@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Owners') {
-    	message.content('The Owners of this server are Andresen and Bigseth');
+    	message.replay('The Owners of this server are Andresen and Bigseth');
     }
 });
     

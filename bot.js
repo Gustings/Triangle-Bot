@@ -7,7 +7,7 @@ client.on('owners', () => {
 
 client.on('message', message => {
     if (message.content === '?owners') {
-    	message.channel.send('The Owners of this server are Andresen and Bigseth');
+    	message.replay('The Owners of this server are Andresen and Bigseth');
     }
 });
 
@@ -26,8 +26,9 @@ client.on('dab', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '?test') {
-    	message.reply('@everyone Hi :D');
+    if (message.content === '?help') {
+    	message.channel.send('Test');
+        message.channel.send('Test');
   	}
 });
     

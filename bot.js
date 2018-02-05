@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+bot.user.setPresence({ status: 'online', game: { name: 'The Aborted Discord' } });
+
 client.on('owners', () => {
     console.log('Ready to execute!');
 });
@@ -37,13 +39,6 @@ client.on('message', message => {
     }
 }); */
 
-client.on('game', () => {
-	console.log('Ready to execute!');
-
-client.on('game', game => {
-    client.user.setGame('Hello World!');
-  }
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

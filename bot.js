@@ -21,7 +21,7 @@ client.on('message', message => {
   	}
 });
 
-client.on('help', () => {
+/*client.on('help', () => {
     console.log('Ready to execute!');
 });
 client.on('message', message => {
@@ -35,7 +35,11 @@ client.on('message', message => {
         message.channel.send('-SOON-');
         
     }
-});
+}); */
+
+client.on('game', () => {
+  bot.user.setGame('GAME HERE')
+})
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

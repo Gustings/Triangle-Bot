@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const embed = new Discord.RichEmbed()
 
+// Owners
 client.on('owners', () => {
     console.log('Ready to execute!');
 });
@@ -11,7 +13,7 @@ client.on('message', message => {
       }
 });
 
-
+// Creators
 client.on('creators', () => {
     console.log('Ready to execute!');
 });
@@ -28,7 +30,6 @@ client.on('info', () => {
 
 client.on('message', message => {
     if (message.content === '?info') {
-const embed = new Discord.RichEmbed()
   .setTitle("This is your title, it can hold 256 characters")
   .setAuthor("Author Name", "https://i.imgur.com/lm8s41J.png")
   /*
@@ -57,6 +58,7 @@ const embed = new Discord.RichEmbed()
   .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
 
   message.channel.send({embed});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

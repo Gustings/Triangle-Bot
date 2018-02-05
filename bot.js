@@ -21,6 +21,14 @@ client.on('message', message => {
   	}
 });
 
+client.on('help', () => {
+    console.log('Ready to execute!');
+});
+client.on('message', message => {
+    if (message.content === '?help') {
+        message.reply('Test');
+    }
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

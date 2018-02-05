@@ -25,13 +25,15 @@ client.on('help', () => {
     console.log('Ready to execute!');
 });
 client.on('message', message => {
-    if (message.content === '?help') {
-        message.channel.send('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');
-        message.channel.send('|                                                          |');
-        message.channel.send('|                                                          |');
-        message.channel.send('|                                                          |');
-        message.channel.send('|                                                          |');
-        message.channel.send('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');
+    if (message.content === '?info') {
+        message.channel.send('**AbortedBot Info** *Version: 1.0.2*');
+        message.channel.send('**Creator:** Gustings #2804');
+        message.channel.send('**Contributors:**');
+        message.channel.send('Andresen #3830 - ');
+        message.channel.send('Bigseth #7672 - Moral support');
+        message.channel.send('**Website:**');
+        message.channel.send('-SOON-');
+        
     }
 });
 

@@ -26,7 +26,12 @@ client.on('help', () => {
 });
 client.on('message', message => {
     if (message.content === '?help') {
-        message.reply('Test');
+        message.reply('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');
+        message.reply('|                                                          |');
+        message.reply('|                                                          |');
+        message.reply('|                                                          |');
+        message.reply('|                                                          |');
+        message.reply('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||');
     }
 });
 

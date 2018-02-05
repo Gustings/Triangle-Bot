@@ -27,7 +27,7 @@ client.on('embed', message => {
         color: 3447003,
         description: "A very simple Embed!"
     }
-});
+}});
 
 /*client.on('help', () => {
     console.log('Ready to execute!');

@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-// Owners
 client.on('owners', () => {
     console.log('Ready to execute!');
 });
@@ -12,7 +11,7 @@ client.on('message', message => {
       }
 });
 
-// Creators
+
 client.on('creators', () => {
     console.log('Ready to execute!');
 });

@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+// Owners
 client.on('owners', () => {
     console.log('Ready to execute!');
 });
@@ -11,6 +12,7 @@ client.on('message', message => {
     }
 });
 
+// Creators
 client.on('creators', () => {
     console.log('Ready to execute!');
 });
@@ -21,24 +23,13 @@ client.on('message', message => {
   	}
 });
 
-client.on('embed', () => {
-    console.log('Ready to execute!');
-});
-
-client.on('embed', embed => {
-    if (message.content === '?embed') {
-        message.channel.send({embed: {
-        color: 3447003,
-        description: "A very simple Embed!"
-        }}
-}});
-
-/*client.on('help', () => {
+// Info
+/*client.on('info', () => {
     console.log('Ready to execute!');
 });
 client.on('message', message => {
     if (message.content === '?info') {
-        message.channel.send('**AbortedBot Info** *Version: 1.0.2*');
+        message.channel.send('**AbortedBot Info** *Version: 1.0.0*');
         message.channel.send('**Creator:** Gustings #2804');
         message.channel.send('**Contributors:**');
         message.channel.send('Andresen #3830 - ');

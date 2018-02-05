@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.user.setPresence({ game: { name: 'The Aborted Discord' });
-
 client.on('owners', () => {
     console.log('Ready to execute!');
 });

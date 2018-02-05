@@ -37,7 +37,7 @@ client.on('message', message => {
     }
 }); */
 
-bot.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
+client.user.setPresence({ status: 'online', game: { name: 'GAME HERE' } });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

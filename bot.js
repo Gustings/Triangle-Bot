@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const embed = new Discord.RichEmbed()
 
 // Owners
 client.on('owners', () => {
@@ -30,9 +29,10 @@ client.on('info', () => {
 
 client.on('message', message => {
     if (message.content === '?info') {
- message.channel.send({embed: {
-  color: 3447003,
-  description: "A very simple Embed!"
+        message.channel.send({embed: {
+           color: 3447003,
+           description: "A very simple Embed!"
+     }
 }});
         
         

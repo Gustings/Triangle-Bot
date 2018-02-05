@@ -21,6 +21,14 @@ client.on('message', message => {
   	}
 });
 
+client.on('embed', message => {
+    if (message.content === '?embed') {
+        message.channel.send({embed: {
+        color: 3447003,
+        description: "A very simple Embed!"
+    }
+});
+
 /*client.on('help', () => {
     console.log('Ready to execute!');
 });

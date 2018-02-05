@@ -37,9 +37,7 @@ client.on('message', message => {
     }
 }); */
 
-client.on('game', () => {
-  bot.user.setGame('GAME HERE')
-})
+bot.on('ready', () => { bot.user.setGame('GAME HERE') })
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

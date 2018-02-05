@@ -6,7 +6,7 @@ client.on('owners', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'a!owners') {
+    if (message.content === '?owners') {
     	message.channel.send('The Owners of this server are Andresen and Bigseth');
     }
 });
@@ -16,7 +16,7 @@ client.on('creators', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'a!abortedbot') {
+    if (message.content === '?abortedbot') {
     	message.reply('This is the official Aborted Discord Bot! Created by gustings and Andresen');
   	}
 });
@@ -26,8 +26,8 @@ client.on('dab', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'a!dab') {
-    	message.reply(':dab: :dab: :dab: :dab: :dab: :dab:');
+    if (message.content === '?test') {
+    	message.reply('@everyone Hi :D');
   	}
 });
     

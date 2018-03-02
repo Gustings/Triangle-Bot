@@ -12,6 +12,13 @@ client.on('message', message => {
   	}
 });    
 
+//Embed
+case "?embed":
+    var embed = new Discord.RichEmbed()
+        .addField("Title", "Description")
+    message.channel.send({embed});
+        // .catch(console.error);
+    break;
 
         
 // THIS  MUST  BE  THIS  WAY

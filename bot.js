@@ -18,8 +18,8 @@ client.on('creator', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '?creator') {
-    	message.reply('This is the official Aborted Discord Bot! Created by Gustings');
+    if (message.content === '?website') {
+    	message.channel.send('AbortedBot Website:https://sites.google.com/view/abortedbot');
   	}
 });    
 

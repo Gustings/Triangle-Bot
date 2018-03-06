@@ -12,13 +12,16 @@ client.on('message', message => {
   	}
 });    
 
-//Embed
-case "?embed":
-    var embed = new Discord.RichEmbed()
-        .addField("Title", "Description")
-    message.channel.send({embed});
-        // .catch(console.error);
-    break;
+// 
+client.on('creator', () => {
+    console.log('Ready to execute!');
+});
+
+client.on('message', message => {
+    if (message.content === '?creator') {
+    	message.reply('This is the official Aborted Discord Bot! Created by Gustings');
+  	}
+});    
 
         
 // THIS  MUST  BE  THIS  WAY

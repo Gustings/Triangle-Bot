@@ -12,14 +12,14 @@ client.on('message', message => {
   	}
 });    
 
-// 
+// Website
 client.on('creator', () => {
     console.log('Ready to execute!');
 });
 
 client.on('message', message => {
     if (message.content === '?website') {
-    	message.channel.send('AbortedBot Website:https://sites.google.com/view/abortedbot');
+    	message.channel.send('AbortedBot Website: https://sites.google.com/view/abortedbot');
   	}
 });    
 

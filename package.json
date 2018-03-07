@@ -1,6 +1,6 @@
 {
-  "name": "AbortedBot",
-  "description": "This is the official Aborted Discord Bot! Created by @gustings#2804 and @Andresen#3830",
+  "name": "Triangle Bot",
+  "description": "This is a bot created by @gustings#2804",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {

@@ -19,9 +19,10 @@ client.on('rekt', () => {
 
 client.on('message', message => {
     if (message.content === ';rekt') {
-    	message.channel.send('@156497366130622464');
+    	message.channel.send('@Andresen#3830 ');
   	}
 });    
+
 // rekt
 client.on('rekt', () => {
     console.log('Ready to execute!');
@@ -29,9 +30,10 @@ client.on('rekt', () => {
 
 client.on('message', message => {
     if (message.content === ';rekt') {
-    	message.channel.send('@156497366130622464');
+    	message.channel.send('@Andresen#3830 ');
   	}
 });    
+
 // rekt
 client.on('rekt', () => {
     console.log('Ready to execute!');
@@ -39,9 +41,10 @@ client.on('rekt', () => {
 
 client.on('message', message => {
     if (message.content === ';rekt') {
-    	message.channel.send('@156497366130622464');
+    	message.channel.send('@Andresen#3830 ');
   	}
 });    
+
 // rekt
 client.on('rekt', () => {
     console.log('Ready to execute!');
@@ -49,9 +52,21 @@ client.on('rekt', () => {
 
 client.on('message', message => {
     if (message.content === ';rekt') {
-    	message.channel.send('@156497366130622464');
+    	message.channel.send('@Andresen#3830 ');
   	}
 });    
+
+// rekt
+client.on('rekt', () => {
+    console.log('Ready to execute!');
+});
+
+client.on('message', message => {
+    if (message.content === ';rekt') {
+    	message.channel.send('@Andresen#3830 ');
+  	}
+});    
+
         
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

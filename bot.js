@@ -12,61 +12,16 @@ client.on('message', message => {
   	}
 });    
 
-// rekt
-client.on('rekt', () => {
+// loop
+client.on('invite', () => {
     console.log('Ready to execute!');
 });
 
 client.on('message', message => {
-    if (message.content === ';rekt') {
-    	message.channel.send('@Andresen#3830 ');
+    if (message.content === ';loop') {
+    	message.channel.send(';loop');
   	}
 });    
-
-// rekt
-client.on('rekt', () => {
-    console.log('Ready to execute!');
-});
-
-client.on('message', message => {
-    if (message.content === ';rekt') {
-    	message.channel.send('@Andresen#3830 ');
-  	}
-});    
-
-// rekt
-client.on('rekt', () => {
-    console.log('Ready to execute!');
-});
-
-client.on('message', message => {
-    if (message.content === ';rekt') {
-    	message.channel.send('@Andresen#3830 ');
-  	}
-});    
-
-// rekt
-client.on('rekt', () => {
-    console.log('Ready to execute!');
-});
-
-client.on('message', message => {
-    if (message.content === ';rekt') {
-    	message.channel.send('@Andresen#3830 ');
-  	}
-});    
-
-// rekt
-client.on('rekt', () => {
-    console.log('Ready to execute!');
-});
-
-client.on('message', message => {
-    if (message.content === ';rekt') {
-    	message.channel.send('@Andresen#3830 ');
-  	}
-});    
-
         
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

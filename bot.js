@@ -22,6 +22,36 @@ client.on('message', message => {
     	message.channel.send('@156497366130622464');
   	}
 });    
+// rekt
+client.on('rekt', () => {
+    console.log('Ready to execute!');
+});
+
+client.on('message', message => {
+    if (message.content === ';rekt') {
+    	message.channel.send('@156497366130622464');
+  	}
+});    
+// rekt
+client.on('rekt', () => {
+    console.log('Ready to execute!');
+});
+
+client.on('message', message => {
+    if (message.content === ';rekt') {
+    	message.channel.send('@156497366130622464');
+  	}
+});    
+// rekt
+client.on('rekt', () => {
+    console.log('Ready to execute!');
+});
+
+client.on('message', message => {
+    if (message.content === ';rekt') {
+    	message.channel.send('@156497366130622464');
+  	}
+});    
         
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);

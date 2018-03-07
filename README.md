@@ -1,2 +1,2 @@
-# AbortedBot
-This is the official Aborted Discord Bot! Created by @gustings#2804 and @Andresen#3830
+# Triangle Bot
+This is a discord bot made by @gustings#2804

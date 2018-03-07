@@ -7,8 +7,8 @@ client.on('test', () => {
 });
 
 client.on('message', message => {
-    if (message.content === ':test') {
-    	message.channel.send('Test Complete');
+    if (message.content === ';aborted') {
+    	message.channel.send('The Aborted Discord: https://discord.gg/qne8NsS');
   	}
 });    
         

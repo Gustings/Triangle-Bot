@@ -2,13 +2,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 // Website
-client.on('creator', () => {
+client.on('test', () => {
     console.log('Ready to execute!');
 });
 
 client.on('message', message => {
-    if (message.content === '?website') {
-    	message.channel.send('AbortedBot Website: https://sites.google.com/view/abortedbot');
+    if (message.content === ':test') {
+    	message.channel.send('Test Complete');
   	}
 });    
         

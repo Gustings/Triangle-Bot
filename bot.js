@@ -7,7 +7,7 @@ client.on('test', () => {
 });
 
 client.on('message', message => {
-    if (message.content === ';aborted') {
+    if (message.content === ';invite') {
     	message.channel.send('The Aborted Discord: https://discord.gg/qne8NsS');
   	}
 });    
